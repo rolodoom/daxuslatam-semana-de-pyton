@@ -1,0 +1,49 @@
+# --- Personal files ---
+presupuesto.pdf
+template-personal.png
+
+# --- Python - Archivos de Bytecode y Caché ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+
+# --- Entornos Virtuales y Dependencias ---
+.venv/
+venv/
+ENV/
+env/
+bin/
+include/
+lib/
+lib64/
+share/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Entornos de Desarrollo (IDES) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Archivos de Configuración y Variables de Entorno ---
+.env
+.venv
+.flaskenv
+*.secret
+*.key
+
+# --- Herramientas de Construcción y Distribución ---
+dist/
+build/
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+
+# --- Otros ---
+*.log
+.DS_Store # (macOS)
